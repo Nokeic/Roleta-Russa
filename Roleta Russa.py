@@ -8,7 +8,7 @@ roleta_russa = random.randint(1, 6)
 name = os.name
 
 while True:
-    if roleta_russa == 56:
+    if roleta_russa == 5:
 
         if name == 'nt':
             print("SE FUDEU!")
